@@ -9,4 +9,4 @@
   - Admin dashboard and UI
   - Clean up login
   - Setup workflow
-- Deeva Seeta is supposed to be my primary technical contact
+- Deeva Seeta is my primary technical contact
