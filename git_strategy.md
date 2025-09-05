@@ -37,13 +37,14 @@ In a perfect world, updated to the main branch happen with a pull request.  The 
 4. Create a .gitignore file
 5. Create a LICENSE file
 
-``bash
+```bash
 mkdir new_project
 cd new_project
 git init
 echo "# New Project" > README.md
 echo "node_modules" > .gitignore
 echo "LICENSE" > LICENSE
+```
 
 6. Add the files to the repository
 7. Commit the files to the repository
