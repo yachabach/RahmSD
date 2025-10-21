@@ -6,15 +6,13 @@
 
 - email: dave.yachabach@rahmsd.com  
 - Rahm Slack Server: <http://rahmsdworkspace.slack.com/>
+- Discord: <https://discord.gg/4JtT3Z3Q>
 - Otter: <https://otter.ai/home>
 
-[Journal][jl]  
 [Study Protocol Notes][spn]  
-[NOtes Index][idx]
+[Notes Index][idx]
 [Agile Notes][ag]  
 
-[jl]:./journal.md
 [spn]:./protocol-notes.md
-[tt]:./timesheet.md
 [ag]:./agile.md
 [idx]:./index.md
