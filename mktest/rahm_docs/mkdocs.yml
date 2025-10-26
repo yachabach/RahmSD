@@ -1,0 +1,10 @@
+site_name: Rahma Notes and Documentation
+site_url: http://localhost:8000
+site_description: Documentation for Rahma Software Development
+theme: readthedocs
+
+plugins:
+  - awesome-nav
+
+  
+

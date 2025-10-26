@@ -1,5 +1,13 @@
 # Meeting Notes
 
+## 2025-10-21
+
+Meeting with Rashmin and Neil
+
+- Discussed strategic vision for Neo
+  - Delivery room - still requires validated vital monitoring
+  - Rashmin meeting with Mike and Helen 2025-10-27 to discuss IRB progress
+
 ## 2025-10-06
 
 Meeting with Vik
