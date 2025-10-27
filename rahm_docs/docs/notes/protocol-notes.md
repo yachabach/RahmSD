@@ -1,2 +1,0 @@
-# Study Protocol Notes
-

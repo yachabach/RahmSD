@@ -1,6 +1,6 @@
-# Neoguardian Notes Index
+# NeoGuardian Notes
 
- [Strategic Vision for NeoGuardian][sf]
+[NeoGuardian Website](https://www.neo-guardian.com/)
 
- [sf]: ./strategic-vision.md
+
 
