@@ -22,6 +22,8 @@ pip install mkdocs-awesome-nav
 ## Project layout
 
 ```bash
+    index.md           # The documentation homepage.
+    .nav.yml            # Navigation configuration for mkdocs-awesome-nav plugin.
     mkdocs.yml          # The configuration file.
     docs/
         index.md        # RahmSD documentation homepage.

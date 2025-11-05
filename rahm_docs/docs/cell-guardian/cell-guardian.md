@@ -1,16 +1,11 @@
 # Cell Guardian UI Evaluations
 
-## Login
+## Accessing the Cell Guardian App
 
 url: <https://app.cell-guardian.com>  
 Email: <dave.yachabach@rahmsd.com>  
 Password: Guardian2025!  
 
-- Login screen could use an update for a more modern and professional look
-  - Tab title is 'Signin' - fix typo and consider changing to 'Cell Guardian'
-  - Add brand icon to the tab
-  - No title or logo present on page or login window
-  - Offer a federated option (Google, Microsoft, etc.)?
-  - Consider adding a "Remember Me" functionality for user convenience
+## Evaluation Document on Google Drive
 
-![Cell Guardian Login Screen](./images/login-needs-update.png){width=50%}
+See [CG User Experience](https://docs.google.com/document/d/1ynKD0FhY9rieh70un_w92xxZbMQ4XAWkANlYe92lStM/edit?usp=drive_link)
