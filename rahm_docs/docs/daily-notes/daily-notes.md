@@ -1,5 +1,24 @@
 # Daily Notes
 
+## 2025-11-11
+
+### Meeting with David Ogles, Varun, and Gretchen
+
+- Surveillance vs. Alerting product?
+- Opening screen is Green.  What does that tell you?  Thermal image is mono-thermic.  Primary screen should be RGB?
+- Last Motion should be blank on empty cell
+- Repeated no-motion events = false alarm
+- Is 10 minutes of no-motion appropriate for jail setting?
+- Respiration range should be 8-30 bpm
+- Showed empty cell with motion and respiratory alerts along with vital signs
+- 
+
+### Meeting with SancSoft Team
+
+- Getting a Jetson box for SG after Deva figures it out
+- Am I getting a Rahm Box and CG?
+- Greg is still working on my CG UI bugs
+
 ## 2025-11-05
 
 ### Sales Meeting with Kevin
