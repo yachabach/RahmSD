@@ -2,12 +2,12 @@
 
 ## Document Information
 
-- **Project Name:** Guardian Line of Health Monitoring Devices
-- **Document Version:** 1.0
-- **Date:** 11/17/2025
-- **Author(s):** David Yachabach
-- **Reviewers:** Neil Euliano
-- **Approval:** 
+- **Project Name:** Guardian Line of Health Monitoring Devices  
+- **Document Version:** 1.0  
+- **Date:** 11/17/2025  
+- **Author(s):** David Yachabach  
+- **Reviewers:** Neil Euliano  
+- **Approval:**   
 
 ---
 
@@ -19,14 +19,15 @@ The Guardian line of health monitoring devices provides contactless vital signs 
 
 ## 2. Test Objectives
 
-**Validate Vital Sign Accuracy**: Ensure reported heart rate and respiration rate meet FDA Class II medical device requirements for accuracy and precision
-**Validate Gated Vitals Reporting**: Confirm vital signs are reported only when all detection requirements are met and immediately suppressed when any requirement fails
+**Validate Vital Sign Accuracy**: Ensure reported heart rate and respiration rate meet FDA Class II medical device requirements for accuracy and precision  
+**Validate Gated Vitals Reporting**: Confirm vital signs are reported only when all detection requirements are met and immediately suppressed when any requirement fails  
 **Validate Application-Specific Performance**: Confirm system meets requirements across all deployment environments:
 
-- Jail cells (low lighting, pixelation requirements, movement interruptions)
-- Retirement/elderly care (pan-tilt tracking integration, telemedicine readiness)
-- Healthcare/NICU (extended acquisition time, clinical documentation requirements)
+- Jail cells (low lighting, pixelation requirements, movement interruptions)  
+- Retirement/elderly care (pan-tilt tracking integration, telemedicine readiness)  
+- Healthcare/NICU (extended acquisition time, clinical documentation requirements)  
 
+<div style="page-break-after: always;"></div>
 ---
 
 ## 3. Scope
@@ -46,8 +47,9 @@ The Guardian line of health monitoring devices provides contactless vital signs 
 - Data storage and backend systems
 - Administrative and configuration tools
 - Alert/notification delivery
-- Long-term reliability and operational testing
+- Long-term reliability and operational testing  
 
+<div style="page-break-after: always;"></div>
 ---
 
 ## 4. Test Approach
@@ -69,6 +71,7 @@ The Guardian line of health monitoring devices provides contactless vital signs 
 - **Environmental Testing**: Validate performance across deployment scenarios (low light, blankets, multiple orientations, pan-tilt tracking)
 Regression Testing: Ensure hardware changes (24 GHz boards, baseboard variants) don't break existing functionality
 
+<div style="page-break-after: always;"></div>
 ---
 
 ## 5. Requirements Traceability
@@ -106,6 +109,7 @@ Regression Testing: Ensure hardware changes (24 GHz boards, baseboard variants) 
 | REQ-ENV-002 | System functions with pan-tilt tracking (elderly care) | TC-ENV-002 | High |
 | REQ-ENV-003 | System meets extended acquisition requirements (healthcare/NICU) | TC-ENV-003 | High |
 
+<div style="page-break-after: always;"></div>
 ---
 
 ## 6. Test Conditions & Scenarios
@@ -442,6 +446,7 @@ Regression Testing: Ensure hardware changes (24 GHz boards, baseboard variants) 
 2. Clinical validation against reference monitors
 3. Documentation includes all required metadata
 
+<div style="page-break-after: always;"></div>
 ---
 
 ## 7. Test Environment
@@ -498,6 +503,7 @@ Radar mounting hardware and fixtures
 - Temperature monitoring
 - Reflective surface positioning (for multi-path interference testing)
 
+<div style="page-break-after: always;"></div>
 ---
 
 ## 8. Test Data Requirements
@@ -536,6 +542,7 @@ Radar mounting hardware and fixtures
 - Environmental setup photos
 - Hardware configuration records (board versions, firmware builds)
 
+<div style="page-break-after: always;"></div>
 ---
 
 ## 9. Entry and Exit Criteria
@@ -563,6 +570,7 @@ Radar mounting hardware and fixtures
 - [ ] Test execution reports completed and reviewed
 - [ ] Test summary report approved by stakeholders
 
+<div style="page-break-after: always;"></div>
 ---
 
 ## 10. Test Deliverables
@@ -601,6 +609,7 @@ Radar mounting hardware and fixtures
 - Known issues and limitations document
 - Recommendations for deployment readiness
 
+<div style="page-break-after: always;"></div>
 ---
 
 ## 11. Schedule & Milestones
@@ -634,35 +643,37 @@ Radar mounting hardware and fixtures
 | Test report and documentation complete | [Date] | [Test Lead] | Pending |
 | Final approval and sign-off | [Date] | [Stakeholders] | Pending |
 
+<div style="page-break-after: always;"></div>
 ---
 
 ## 12. Resources
 
 ### 12.1 Test Team
 
-**Test Lead**: [Name] - Overall test strategy, planning, and execution oversight
-**Test Engineers**: [Names] - Test case development, execution, and defect reporting
-**Test Data Analyst**: [Name] - Data logging, analysis, and accuracy validation
+**Test Lead**: [Name] - Overall test strategy, planning, and execution oversight  
+**Test Engineers**: [Names] - Test case development, execution, and defect reporting  
+**Test Data Analyst**: [Name] - Data logging, analysis, and accuracy validation  
 
 ### 12.2 Subject Matter Experts
 
-**Hardware Engineers**: [Names] - Radar board validation, range testing, hardware configuration
-**Clinical Specialists**: [Names] - FDA requirements validation, clinical testing protocols
-**Software Engineers**: [Names] - Technical support for system behavior and troubleshooting
+**Hardware Engineers**: [Names] - Radar board validation, range testing, hardware configuration  
+**Clinical Specialists**: [Names] - FDA requirements validation, clinical testing protocols  
+**Software Engineers**: [Names] - Technical support for system behavior and troubleshooting  
 
 ### 12.3 Stakeholders and Approvers
 
-**Project Manager**: [Name] - Schedule coordination and resource allocation
-**Technical Lead**: [Name] - Requirements clarification and technical decisions
-**Quality Manager**: [Name] - Test strategy approval and final sign-off
+**Project Manager**: [Name] - Schedule coordination and resource allocation  
+**Technical Lead**: [Name] - Requirements clarification and technical decisions  
+**Quality Manager**: [Name] - Test strategy approval and final sign-off  
 
 ### 12.4 Management Tools
 
-**Test Management**: [e.g., TestRail, Jira, Excel]
-**Defect Tracking**: [e.g., Jira, Bugzilla]
-**Document Management**: [e.g., Confluence, SharePoint, Google Drive]
-**Communication**: [e.g., Slack, Teams, Email]
+**Test Management**: [e.g., TestRail, Jira, Excel]  
+**Defect Tracking**: [e.g., Jira, Bugzilla]  
+**Document Management**: [e.g., Confluence, SharePoint, Google Drive]  
+**Communication**: [e.g., Slack, Teams, Email]  
 
+<div style="page-break-after: always;"></div>
 ---
 
 ## 13. Risk Assessment
@@ -680,6 +691,7 @@ Radar mounting hardware and fixtures
 | Test team resource constraints | Medium | Medium | Cross-train team members, prioritize critical tests, adjust schedule to match available resources |
 | Defect resolution delays test completion | High | Medium | Establish clear defect triage process, maintain communication with development team, plan regression buffer |
 
+<div style="page-break-after: always;"></div>
 ---
 
 ## 14. Assumptions and Dependencies
@@ -704,6 +716,7 @@ Radar mounting hardware and fixtures
 - Regulatory Guidance: FDA Class II requirements and documentation standards must be clearly defined before accuracy testing
 - Procurement: Test materials (blankets, positioning equipment, etc.) must be procured before test execution
 
+<div style="page-break-after: always;"></div>
 ---
 
 ## 15. Approval
