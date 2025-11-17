@@ -32,13 +32,21 @@ The Guardian line of health monitoring devices provides contactless vital signs 
 ## 3. Scope
 
 ### 3.1 In Scope
-- Features and requirements to be tested
-- Systems and components included
-- Test environments
+
+- Detection system (presence, range, stationary state validation)
+- Vital signs acquisition system (HR/RR calculation)
+- Reporting logic (output control and system state signaling)
+- All three deployment environments (jail, elderly care, healthcare/NICU)
+- Hardware variants (24 GHz radar boards, baseboard configurations)
 
 ### 3.2 Out of Scope
-- Features explicitly not covered in this test cycle
-- Dependencies handled by other teams
+
+- User interface and display rendering
+- Network and IT infrastructure
+- Data storage and backend systems
+- Administrative and configuration tools
+- Alert/notification delivery
+- Long-term reliability and operational testing
 
 ---
 
