@@ -1,0 +1,191 @@
+# Test Strategy Document
+
+## Document Information
+- **Project Name:** [Project/Product Name]
+- **Document Version:** [e.g., 1.0]
+- **Date:** [Date]
+- **Author(s):** [Your Name]
+- **Reviewers:** [Names]
+- **Approval:** [Name/Signature]
+
+---
+
+## 1. Executive Summary
+Brief overview of the testing scope, objectives, and approach for this feature/system.
+
+---
+
+## 2. Test Objectives
+- Primary goal of testing (e.g., validate Human Presence Detection system)
+- Key quality attributes to verify (accuracy, reliability, safety)
+- Compliance requirements (FDA, regulatory standards)
+
+---
+
+## 3. Scope
+
+### 3.1 In Scope
+- Features and requirements to be tested
+- Systems and components included
+- Test environments
+
+### 3.2 Out of Scope
+- Features explicitly not covered in this test cycle
+- Dependencies handled by other teams
+
+---
+
+## 4. Test Approach
+
+### 4.1 Test Levels
+- **Unit Testing:** Component-level validation
+- **Integration Testing:** Multi-component interaction
+- **System Testing:** End-to-end functional validation
+- **Acceptance Testing:** User/stakeholder validation
+
+### 4.2 Test Types
+- **Functional Testing:** Verify requirements are met
+- **Performance Testing:** Response time, accuracy metrics
+- **Boundary Testing:** Min/max thresholds
+- **Negative Testing:** Invalid inputs and error conditions
+- **Regression Testing:** Ensure changes don't break existing functionality
+
+---
+
+## 5. Requirements Traceability
+
+| Requirement ID | Requirement Description | Test Case ID(s) | Priority |
+|----------------|------------------------|-----------------|----------|
+| REQ-001 | Motion detection within X seconds | TC-001, TC-002 | High |
+| REQ-002 | Thermal threshold > 80°F | TC-003, TC-004 | High |
+
+---
+
+## 6. Test Conditions & Scenarios
+
+### 6.1 [Feature/Gate Name]
+**Requirement:** [Brief description]
+
+**Test Conditions:**
+- Condition 1: [Description]
+- Condition 2: [Description]
+
+**Expected Behavior:**
+- [What should happen]
+- [Edge cases]
+
+**Test Scenarios:**
+1. **Positive Tests:** Valid inputs that should pass
+2. **Negative Tests:** Invalid inputs that should fail gracefully
+3. **Boundary Tests:** Min/max threshold values
+
+---
+
+## 7. Test Environment
+
+### 7.1 Hardware Requirements
+- Device models/versions
+- Radar boards (e.g., 24 GHz boards)
+- Camera systems
+
+### 7.2 Software Requirements
+- Firmware versions
+- Software builds
+- Required libraries
+
+### 7.3 Test Facility Setup
+- Physical environment (jail cell mockup, lab, clinical setting)
+- Distance markers (5-10 ft range)
+- Environmental controls (lighting, temperature)
+
+---
+
+## 8. Test Data Requirements
+- Sample subjects (human presence testing)
+- Thermal profiles
+- Motion patterns
+- Edge case scenarios (blankets, multiple orientations)
+
+---
+
+## 9. Entry and Exit Criteria
+
+### 9.1 Entry Criteria
+- [ ] Test environment setup complete
+- [ ] Test hardware available and calibrated
+- [ ] Test software build delivered
+- [ ] Test cases reviewed and approved
+
+### 9.2 Exit Criteria
+- [ ] All high-priority test cases executed
+- [ ] X% pass rate achieved
+- [ ] Critical defects resolved
+- [ ] Test report completed and approved
+
+---
+
+## 10. Test Deliverables
+- Test Plan document
+- Test cases with steps and expected results
+- Test execution reports
+- Defect reports
+- Traceability matrix
+- Final test summary report
+
+---
+
+## 11. Schedule & Milestones
+
+| Milestone | Target Date | Owner | Status |
+|-----------|-------------|-------|--------|
+| Test plan approval | [Date] | [Name] | Pending |
+| Test environment ready | [Date] | [Name] | Pending |
+| Test execution start | [Date] | [Name] | Pending |
+| Test completion | [Date] | [Name] | Pending |
+
+---
+
+## 12. Resources
+
+### 12.1 Team
+- **Test Lead:** [Name]
+- **Test Engineers:** [Names]
+- **Subject Matter Experts:** [Dave, Neil, etc.]
+
+### 12.2 Tools
+- Test management: [e.g., TestRail, Jira]
+- Defect tracking: [e.g., Jira, Bugzilla]
+- Test automation: [if applicable]
+
+---
+
+## 13. Risk Assessment
+
+| Risk | Impact | Probability | Mitigation Strategy |
+|------|--------|-------------|---------------------|
+| Hardware delays | High | Medium | Order backup units, parallel testing |
+| Environmental variation | Medium | High | Document all test conditions |
+
+---
+
+## 14. Assumptions and Dependencies
+- Assumption 1: [e.g., Test subjects available for all scenarios]
+- Dependency 1: [e.g., New 24 GHz boards delivered by [date]]
+
+---
+
+## 15. Approval
+
+| Role | Name | Signature | Date |
+|------|------|-----------|------|
+| Test Manager | | | |
+| Project Manager | | | |
+| Technical Lead | | | |
+
+---
+
+## Revision History
+
+| Version | Date | Author | Changes |
+|---------|------|--------|---------|
+| 1.0 | [Date] | [Name] | Initial draft |
