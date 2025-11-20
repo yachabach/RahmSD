@@ -1,11 +1,11 @@
-# Test Strategy Document - Vital Signs Detection, Acquisition and Reporting System
+# Test Strategy Document - Vital Signs Detection, Acquisition and Reporting Module
 
 ## Document Information
 
 - **Project Name:** Guardian Line of Health Monitoring Devices  
 - **Document Version:** 1.0  
 - **Date:** 11/17/2025  
-- **Author(s):** David Yachabach  
+- **Author(s):** David Yachabach, Neil Euliano
 - **Reviewers:** Neil Euliano  
 - **Approval:**   
 
@@ -23,9 +23,9 @@ The Guardian line of health monitoring devices provides contactless vital signs 
 **Validate Gated Vitals Reporting**: Confirm vital signs are reported only when all detection requirements are met and immediately suppressed when any requirement fails  
 **Validate Application-Specific Performance**: Confirm system meets requirements across all deployment environments:
 
-- Jail cells (low lighting, pixelation requirements, movement interruptions)  
-- Retirement/elderly care (pan-tilt tracking integration, telemedicine readiness)  
-- Healthcare/NICU (extended acquisition time, clinical documentation requirements)  
+- Jail cells (low lighting, movement interruptions, etc.)  
+- Retirement/elderly care (pan-tilt tracking integration, backgrounds, etc.)  
+- Healthcare/NICU (extended acquisition time, clinical documentation requirements, etc.)  
 
 <div style="page-break-after: always;"></div>
 ---
@@ -56,8 +56,8 @@ The Guardian line of health monitoring devices provides contactless vital signs 
 
 ### 4.1 Test Levels
 
-- **Component Testing**: Validate individual detection gates (motion, thermal, pose, range, stationary, radar confidence) function correctly in isolation
-- **Integration Testing**: Verify that detection gates work together and reporting logic correctly responds to gate states
+- **Component Testing**: Validate individual detection components function correctly in isolation
+- **Integration Testing**: Verify that detection components work together and reporting logic correctly responds to component states
 - **System Testing**: End-to-end validation of detection, acquisition, and reporting across all deployment scenarios
 - **Acceptance Testing**: Clinical and operational validation with stakeholders (Dave, Neil, clinical staff)
 
@@ -65,11 +65,11 @@ The Guardian line of health monitoring devices provides contactless vital signs 
 
 - **Functional Testing**: Verify all detection requirements, acquisition timing, and reporting logic meet specifications
 - **Accuracy Testing**: Validate HR/RR measurements against FDA Class II requirements and reference standards
-- **Boundary Testing**: Test threshold values (80°F thermal, 5-10 ft range limits, acquisition timing boundaries)
+- **Boundary Testing**: Test threshold values (80°F thermal, detection distance limits, acquisition timing boundaries)
 - **State Transition Testing**: Verify immediate suppression when requirements fail and proper recovery when requirements are re-established
 - **Negative Testing**: Confirm system correctly suppresses output for invalid conditions (cold objects, excessive motion, noise interference)
-- **Environmental Testing**: Validate performance across deployment scenarios (low light, blankets, multiple orientations, pan-tilt tracking)
-Regression Testing: Ensure hardware changes (24 GHz boards, baseboard variants) don't break existing functionality
+- **Environmental Testing**: Validate performance across deployment scenarios (low light, blankets, multiple orientations, pan-tilt tracking)  
+- **Regression Testing**: Ensure hardware changes (24 GHz boards, baseboard variants) don't break existing functionality
 
 <div style="page-break-after: always;"></div>
 ---

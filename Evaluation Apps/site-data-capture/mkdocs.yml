@@ -1,0 +1,19 @@
+site_name: Rahm Data Capture
+site_url: http://localhost:8004
+site_description: Documentation for Rahm Data Capture
+site_author: David Yachabach
+theme:
+  name: material
+dev_addr: localhost:8004
+
+plugins:
+  - awesome-nav
+
+markdown_extensions:
+  - admonition
+  - pymdownx.snippets:
+      base_path: '.'
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tilde
